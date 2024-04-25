@@ -35,10 +35,7 @@ public class testtcasess extends ParametersClass{
 		WebElement ActualReturnDate = driver
 				.findElement(By.cssSelector("div[class='sc-OxbzP sc-bYnzgO bojUIa'] span[class='sc-fvLVrH hNjEjT']"));
 
-		// from the previous two elements we extracted the text (getText())
-		// then we convert the text to int why ? because we need the value of the text
-		// as a number , so we can test it's value with the date.day value
-		// Integer.parseInt(اسم السترينغ الي بدك تحوله لرقم)
+		
 
 		int ActualDeptureDateValue = Integer.parseInt(ActualDepatureDate.getText());
 
